@@ -17,9 +17,24 @@
 
 但是播放CAD要先进行视频识别，视频本质是许多图片，然后分别储存每一帧包含的坐标，最后在CAD中进行批量图片绘制
 
+## 环境配置
+你需要安装Python3.8 以上版本
+
+安装opencv、ezdxf、pywin32库
+
+opencv推荐用Anaconda安装
+
+终端中打开
+
+```pip install pywin32 ezdxf```
+
+使用IDE时要切换至安装了相应库的Python
+
 # by the way:
 图片识别要根据你的图片修改参数，如何修改问AI就行
 
 BAD APPLE！本身就是二值化的，因此识别图片和提取坐标不需要怎么设置
+
+学习版的CAD要自己设置注册表
 
 如果你觉得还行，star plz
